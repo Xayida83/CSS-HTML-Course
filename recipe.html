@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Recipe</title>
+   
+    <link
+      rel="stylesheet"
+      href="CSS/navigationbar2style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="CSS/recipestyle.css"
+    />
+  </head>
+  <body>
+    <nav class="skew-menu">
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="exercise2.html">Semantiska Tags</a></li>
+        <li><a href="exercise3.html">Exercise 3</a></li>
+        <li><a href="exercise4.html">Exercise 4</a></li>
+        <li><a href="exercise5.html">Exercise 5</a></li>      
+        <!-- <li><a href="pictures.html">Pictures</a></li>         -->
+      </ul>        
+    </nav>
+    <div class="instruction">
+      <p>
+        Din uppgift är att skapa en receptsida innehållandes tre recept på olika maträtter. För att åstadkomma detta bör du använda följande:
+      </p>
+      <label for="ul-html">HTML</label>  
+      <p>Varje recept ska innehålla följande:</p>
+        <ul>
+          <li>Sidan ska använda sig utav semantiska HTML-taggar.</li>
+          <li>Använd minst tre nivåer av rubriker.</li>
+          <li>Det ska finnas minst en bild för varje maträtt.</li>
+          <li>En onumrerad lista för ingredienser.</li>
+          <li>En numrerad lista för vilka steg man tar för att tillaga rätten.</li>
+          <li>En faktaruta med en intressant/rolig fakta om maträtten.</li>
+          <li>Minst två externa länkar till liknande recept. Dessa ska öppnas i ny flik/fönster.</li>
+          <li>HTML-filen ska valideras utan fel på <a href="https://validator.w3.org/">validator</a>. (Gula varningar är tillåtna!)</li>
+        </ul>
+        <label for="ul-css">CSS</label>
+        <ul>
+          <li>Använd minst två olika typsnitt på sidan.</li>
+          <li>Använd minst två bakgrundsfärger/bakgrundsbilder på sidan.</li>
+        </ul>
+      </p>
+    </div>
+    <header>
+      <h1 class="heading">3 supergoda recept</h1>
+    </header>
+    <main>
+      <div class="recipe_box">
+        <article class="recipe">
+          <h2 class="recipe_name">
+            Pasta med Pesto och Körsbärstomater
+          </h2>
+          <img
+            src="/images/övningpasta.jpg"
+            width="250"
+            alt="Tallrik med pasta"
+          />
+          <section>
+          <h3 class="ingredients_heading">
+            Ingredienser:
+          </h3>
+          <ul class="ingredients">
+            <li>
+              250 g pasta (t.ex. linguine eller
+              spaghetti)
+            </li>
+            <li>2 dl färsk basilika</li>
+            <li>1/2 dl pinjenötter</li>
+            <li>1/2 dl riven parmesanost</li>
+            <li>2 vitlöksklyftor</li>
+            <li>1 dl olivolja</li>
+            <li>250 g körsbärstomater</li>
+            <li>
+              Salt och svartpeppar efter smak
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h4 class="instructions_headning">
+            Instruktioner
+          </h4>
+          <ol class="instructions">
+            <li>
+              Koka pastan enligt anvisningarna på
+              förpackningen, och häll av den när
+              den är al dente.
+            </li>
+            <li>
+              I en matberedare, blanda basilika,
+              pinjenötter, parmesanost, vitlök och
+              olivolja tills du får en slät pesto.
+            </li>
+            <li>
+              Halvera körsbärstomaterna och blanda
+              dem med den nykokta pastan.
+            </li>
+            <li>
+              Tillsätt peston och blanda väl.
+              Smaka av med salt och svartpeppar.
+            </li>
+            <li>
+              Servera genast och toppa med extra
+              parmesanost om så önskas.
+            </li>
+          </ol>
+        </section>
+        <section>
+          <aside class="fun_fact">
+            Visste du att pesto, den kryddiga
+            basilikasåsen som används i pasta med
+            pesto och körsbärstomater, har sina
+            rötter i Italien och är betydligt
+            äldre än du kanske tror? Pestoens
+            historia går tillbaka till det
+            romerska riket, och det är faktiskt
+            namngivet efter det italienska ordet
+            "pestare", vilket betyder "att krossa"
+            eller "att mala". Traditionellt sett
+            krossade man ingredienserna i en
+            mortel med en träpestel för att skapa
+            den ursprungliga pestosåsen. <br />
+            Så när du gör din egen pesto och
+            njuter av den i din pasta, är det som
+            att du fortsätter en kulinarisk
+            tradition som har överlevt i över
+            tusen år!
+          </aside>
+        </section>
+        </article>
+        <div class="more_recipes">
+          <h5>
+            Här hittar du fler liknande recept:
+          </h5>
+          <nav class="recipes_links">
+            <a
+              href="https://www.mathem.se/recept/pasta-pesto-med-rostade-tomater"
+              target="_blank"
+              >Mathem</a
+            >
+            <a
+              href="https://www.zeta.nu/recept/strozzapreti-med-cocktailtomater-pesto-och-parmesan/"
+              target="_blank"
+              >Zeta</a
+            >
+          </nav>
+        </div>
+      </div>
+      <div class="recipe_box">
+        <article class="recipe">
+          <h2 class="recipe_name">
+            Grillade grönsaker med Balsamicoglace
+          </h2>
+          <img
+            src="https://img.freepik.com/free-photo/grilled-zucchini-with-vegetables-tomato-sauce-concept-vegetarian-food_127032-2748.jpg?w=826&t=st=1694780297~exp=1694780897~hmac=bd721d02edeab43fc301b8def9f11c2fd3eb624fc6c9c05f31f85a1f84d5cc78"
+            width="250"
+            alt="Tallrik med grillade grönsaker"
+          />
+          <h3 class="ingredients_heading">
+            Ingredienser:
+          </h3>
+          <ul class="ingredients">
+            <li>
+              4 koppar blandade grönsaker (t.ex.
+              paprika,
+            </li>
+            <li>zucchini, aubergine, tomater)</li>
+            <li>2 msk balsamicoglace</li>
+            <li>1 tsk torkad oregano</li>
+            <li>2 msk olivolja</li>
+            <li>
+              Salt och svartpeppar efter smak
+            </li>
+          </ul>
+          <h4 class="instructions_headning">
+            Instruktioner
+          </h4>
+          <ol class="instructions">
+            <li>
+              Skär grönsakerna i skivor eller
+              bitar.
+            </li>
+            <li>
+              Blanda olivolja, balsamicoglace och
+              torkad oregano i en skål.
+            </li>
+            <li>
+              Pensla grönsakerna med
+              oljeblandningen och strö över lite
+              salt och svartpeppar.
+            </li>
+            <li>
+              Grilla grönsakerna på en grill eller
+              i ugnen på 200 grader Celsius i ca
+              10-15 minuter tills de är önskad
+              konsistens och har fått fin färg.
+            </li>
+            <li>
+              Servera som tillbehör till dina
+              favoritprotein eller som en hälsosam
+              sida till måltiden.
+            </li>
+          </ol>
+          <aside class="fun_fact">
+            Visste du att balsamicovinäger, som
+            ofta används för att göra
+            balsamicoglace, inte är som vanlig
+            vinäger? Den har faktiskt en lång och
+            ärofull historia bakom sig. <br />
+            Balsamicovinäger tillverkas i regionen
+            Emilia-Romagna i norra Italien och
+            lagras i trätunnor i årtionden, ibland
+            till och med århundraden. Det finns
+            berättelser om familjer som överför
+            sin balsamicovinäger från generation
+            till generation som en värdefull
+            arvsskatt. Vinägern anses vara mogen
+            och full av smak när den har en hög
+            ålder. <br />
+            Så, när du njuter av grillade
+            grönsaker med balsamicoglace, är du
+            faktiskt smakar på en del av Italiens
+            rika kulturarv och tradition!
+          </aside>
+        </article>
+        <div class="more_recipes">
+          <h5>
+            Här hittar du fler liknande recept:
+          </h5>
+          <nav class="recipes_links">
+            <a
+              href="https://www.mathem.se/recept/pasta-pesto-med-rostade-tomater"
+              target="_blank"
+            >
+              Mathem
+            </a>
+            <a
+              href="https://www.zeta.nu/recept/strozzapreti-med-cocktailtomater-pesto-och-parmesan/"
+              target="_blank"
+            >
+              Zeta
+            </a>
+          </nav>
+        </div>
+      </div>
+      <div class="recipe_box">
+        <article class="recipe">
+          <h2 class="recipe_name">
+            Enkel Kycklinggryta med Grönsaker
+          </h2>
+          <img
+            src="https://st4.depositphotos.com/1558912/27401/i/1600/depositphotos_274018418-stock-photo-chicken-stew-with-vegetables-black.jpg"
+            width="250"
+            alt="Kycklinggryta"
+          />
+          <h3 class="ingredients_heading">
+            Ingredienser:
+          </h3>
+          <ul class="ingredients">
+            <li>
+              4 kycklinglår (eller kycklingbröst
+              om du föredrar)
+            </li>
+            <li>2 morötter, skivade</li>
+            <li>2 potatisar, tärnade</li>
+            <li>1 lök, hackad</li>
+            <li>2 vitlöksklyftor, hackade</li>
+            <li>1 dl grädde</li>
+            <li>2 tsk torkad timjan</li>
+            <li>
+              Salt och svartpeppar efter smak
+            </li>
+            <li>2 msk olivolja</li>
+          </ul>
+          <h4 class="instructions_headning">
+            Instruktioner
+          </h4>
+          <ol class="instructions">
+            <li>
+              Hetta upp olivoljan i en stor gryta
+              och bryn kycklingen på båda sidor
+              tills den är gyllenbrun.
+            </li>
+            <li>
+              Tillsätt lök och vitlök och sautera
+              tills löken är genomskinlig.
+            </li>
+            <li>
+              Lägg i morötter och potatis, och
+              fräs dem i några minuter.
+            </li>
+            <li>
+              Låt grytan sjuda i ca 20-25 minuter
+              tills kycklingen är genomstekt och
+              grönsakerna är mjuka.
+            </li>
+            <li>
+              Smaka av med salt och svartpeppar
+              innan servering.
+            </li>
+          </ol>
+          <aside class="fun_fact">
+            Did you know that chicken soup,
+            including simple chicken and vegetable
+            soup, is often referred to as "Jewish
+            penicillin"? This nickname comes from
+            the long-standing belief in Jewish
+            culture that chicken soup has healing
+            properties and can help cure a variety
+            of ailments, including the common
+            cold.
+            <br />
+            So, not only is this dish delicious
+            and comforting, but it also comes with
+            a charming nickname that highlights
+            its reputation as a go-to remedy for
+            feeling under the weather. Enjoy your
+            simple chicken and vegetable soup, and
+            remember that it's not just good for
+            the soul; it's also "Jewish
+            penicillin"!
+          </aside>
+        </article>
+        <div class="more_recipes">
+          <h5>
+            Här hittar du fler liknande recept:
+          </h5>
+          <nav class="recipes_links">
+            <a
+              href="https://www.kokaihop.se/recept/kycklinggryta-31"
+              target="_blank"
+              >Kokaihop</a
+            >
+            <a
+              href="https://recept.se/recept/kycklinggryta-med-gronsaker-och-svamp"
+              target="_blank"
+              >Recept.se</a
+            >
+          </nav>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

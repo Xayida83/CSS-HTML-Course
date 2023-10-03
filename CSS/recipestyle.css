@@ -1,0 +1,45 @@
+body{
+  background: linear-gradient(  
+    #c4dfe7 10%, #2d7d49)
+}
+.instruction{
+  border: solid 2px black;
+  border-radius: 15px;
+  padding: 5px;
+  width: fit-content;
+  margin-left: 15%;
+  margin-right: 15%;
+  & label{
+    font-weight: 700;
+  }
+}
+
+header{
+  border: solid 2px gray;
+  border-radius: 25em;
+  margin: 1em;
+  height: fit-content;
+  text-align: center;
+  & h1{
+    margin: 0.4em;    
+    font-family: 'Courier New', Courier, monospace;
+  }
+}
+main {
+  display: flex;
+}
+.recipe_box {
+  display: inline-block;
+  max-width: 30%;
+  border: solid 3px gray;
+  margin: 5px;
+  padding: 5px;
+  & h2{
+    text-align: center;
+  }
+  .recipe img{
+    align-items: center;
+  }
+}
+
+  

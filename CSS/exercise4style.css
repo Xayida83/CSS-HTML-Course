@@ -1,0 +1,359 @@
+/* Add Question 1 CSS below: */
+.color-word {
+  color: red;
+}
+
+/* Add Question 2 CSS below: */
+/* .rainbow-color {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+.rainbow-color {
+background: linear-gradient(green, orange, red, purple, blue);
+color: white;
+}
+
+/* Question 3/4 */
+div.highlight-me {
+  color: black;
+  font-size: 16px;
+  background-color: yellow;
+}
+
+/* Question 5 */
+.side-by-side {
+  width: 120px;
+  height: 70px;
+  background-color: black;
+  margin: 10px;
+  display: inline-block;
+}
+
+/* Question 6 */
+.gone {
+  background-color: lightgrey;
+  color: grey;
+  font-size: 30px;
+  width: 100px;
+  display: none;
+}
+
+/* Question 7 */
+.increase-orange {
+  background-color: orange;
+  display: inline-block;
+  padding: 1rem;
+}
+
+/* Question 8 */
+.separate-me {
+  background-color: green;
+  width: 200px;
+  height: 20px;
+  margin-bottom: 0.5rem;
+}
+
+/* Question 9 */
+.user-friendly {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
+  border: solid green 2px;
+  border-radius: 3px;
+}
+.user-friendly:hover {
+  background: gray;
+}
+
+/* Question 10 */
+.static {
+  background-color: #00ffff;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+}
+.center-me {
+  display: inline-block;
+  /* margin: 41% 16%; */
+  line-height: 100px;
+}
+
+/* Question 11 */
+.left-upward {
+  width: 200px;
+  height: 60px;
+  background-color: green;
+  position: relative;
+    left: -50px;
+    bottom: 50px;
+    z-index: -1;
+}
+
+/* Question 12 */
+.fixed-btn {
+  background-color: pink;
+  width: 130px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: -1;
+}
+
+/* Question 13 */
+.position-20-40 {
+  background-color: #bb00ff;
+  width: 200px;
+  height: 100px;
+  top:20px;
+  left: 40px;
+}
+
+/* Question 14 */
+.dont-move {
+  width: 200px;
+  height: 50px;
+  background-color: grey;
+}
+.move-me {
+  width: 220px;
+  height: 60px;
+  background-color: blue;
+  position: relative;
+    left: -30px;
+    top: 30px;
+}
+
+/* Question 15 */
+
+
+/* Question 16 */
+.larger-div {
+  background-color: red;
+  width: 260px;
+  height: 260px;
+}
+.smaller-div {
+  background-color: purple;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 35px;
+  top: 131em;
+  bottom: auto;
+}
+
+/* Question 17 */
+.parent-div {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background-color: lightgrey;
+}
+.child-div {
+  background-color: #4287f5;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  /* 250px */
+  bottom: 125px;
+  right: 125px;
+}
+
+/* Qustion 18 */
+.horixontal {
+  width: 100%;
+  height: 19px;
+  background-color: #7b7be4;
+  margin: 3px;
+}
+/* Qustion 19 */
+.vertical {
+  display: inline-block;
+  width: 10px;
+  height: 77px;
+  background-color: #7b7be4;
+  margin: 3px;
+}
+
+/* Question 20 */
+.replicate-me {
+  background-color: lightgrey;
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+.replicate-me div {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+}
+.red-square {
+  background-color: #f0002c;
+  bottom: 161px;
+  left: 21px;
+}
+.pink-square {
+  background-color: #e0abd8;
+  bottom: 103px;
+  left: 60px;
+}
+.yellow-square {
+  background-color: #f0c800;
+  bottom: 73px;
+  left: 123px;
+}
+.green-square {
+  background-color: #32a852;
+  bottom: 140px;
+  left: 153px;
+}
+.blue-square {
+  background-color: #0486d6;
+  bottom: 103px;
+  left: 172px;
+}
+
+/* Default Styles */
+
+p {
+  color: grey;
+  font-size: 14px;
+  max-width: 460px;
+}
+
+body {
+  padding-bottom: 200px;
+}
+
+.img-ref {
+  width: 400px;
+}
+
+h3 {
+  text-decoration: underline;
+}
+.empire-stat-building {
+  height: 229px;
+  /* border: solid 1px; */
+  position: relative;
+}
+.empire-stat-building div{
+  position: absolute;
+}
+.top{
+  width: 4px;
+  height: 23px;
+  background: black;
+  border-radius: 4px;
+  left: 261px;
+  top: 2px;
+}
+.one {
+  width: 12px;
+  height: 31px;
+  border: solid black 3px;
+  border-radius: 12px 12px 0 0;
+  left: 254px;
+  top: 24px;
+}
+.line {
+  width: 10px;
+  border: solid black 2px;
+  top: 20px;
+}
+.big-middle {
+  width: 24px;
+  height: 100px;
+  border: solid black 3px;
+  border-radius: 3px;
+  left: 248px;
+  top: 58px;
+}
+.vertical-line{
+  height: 88px;
+    border: solid black 2px;
+    left: 10px;
+    top: 6px;
+}
+.one-side {
+  width: 11px;
+  height: 24px;
+  border: solid black 3px;
+  background-color: white;
+  border-radius: 3px 0;
+  left: 240px;
+  top: 66px;
+}
+.two-side {
+  width: 11px;
+  height: 24px;
+  border: solid black 3px;
+  background-color: white;
+  border-radius: 0px 3px;
+  left: 270px;
+  top: 66px;
+}
+.three-side {
+  width: 16px;
+  height: 116px;
+  border: solid black 3px;
+  background-color: white;
+  border-radius: 3px 0;
+  left: 235px;
+  top: 88px;
+}
+.vertical-line1{
+  height: 99px;
+  border: solid black 2px;
+  left: 6px;
+  top: 6px;
+}
+.four-side {
+  width: 16px;
+  height: 116px;
+  border: solid black 3px;
+  background-color: white;
+  border-radius: 0px 3px;
+  left: 270px;
+  top: 88px;
+}
+.vertical-line2{
+  height: 99px;
+  border: solid black 2px;
+  left: 6px;
+  top: 6px;
+}
+.bottom {
+  width: 75px;
+  height: 47px;
+  border: solid black 3px;
+  background-color: white;
+  border-radius: 0px 3px;
+  left: 222px;
+  top: 160px;
+}
+.ground {
+  width: 100px;
+  height: 12px;
+  border: solid black 3px;
+  background-color: white;
+  border-radius: 3px 3px 0px 0px;
+  left: 208px;
+  top: 206px;
+}
+.dashed-line {
+  width: 90px;
+  border: dashed black 2px;
+  bottom: 3px;
+  left: 3px;
+}

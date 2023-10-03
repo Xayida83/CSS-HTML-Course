@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Exercise 2</title>  
+    <link rel="stylesheet" href="/CSS/style.css" />  
+    <link rel="stylesheet" href="/CSS/exercisestyle.css" />
+    <link rel="stylesheet" href="/CSS/navigationbar2style.css" />
+  </head>
+  <body>
+    <nav class="skew-menu">
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="exercise3.html">Exercise 3</a></li>
+        <li><a href="exercise4.html">Exercise 4</a></li>
+        <li><a href="exercise5.html">Exercise 5</a></li>      
+        <li><a href="recipe.html">Recipe</a></li>
+        <li><a href="loggin.html">Login Exercise</a></li>        
+        <!-- <li><a href="pictures.html">Pictures</a></li>         -->
+      </ul>        
+    </nav>
+    <div class="thanks">
+      <blockquote cite="https://codepen.io/kazzkiq">Thank you Claudio Holanda!</blockquote>
+    </div>
+    <div class="instruction">
+      <p>Testa använda följande taggar. För information kring hur man använder dem, använd https://www.w3schools.com/tags/</p>
+      <p>Skapa olika element med HTML! Försök att göra det så semantiskt som möjligt.</p>
+      <ol>
+        <li>Skapa en dropdown-lista med 5 eller fler storlekar man kan välja:  XS - S - M - L - XL.</li>
+        <li>Skapa en navigation med länkar till minst tre olika undersidor.</li>
+        <li>Skapa en input där användare kan skriva in sitt telefonnummer</li>
+        <li>Skapa en numrerad lista över namnen på dina topp 5 filmer.</li>
+        <li>Skapa en onumrerad lista där du skriver upp fem alternativa maträtter.</li>
+        <li>Huvudinnehållet på sidan ska innehålla tre nyhetsartiklar. Dessa ska innehålla en bild,
+           en huvudrubrik, underrubrik och brödtext.</li>
+        <li>Lägg en länk runt varje nyhetsartikel som gör artiklarna klickbara. Få dessa att öppnas i en ny flik.</li>
+        <li>Blir du klar: Testa, använda och experimentera med CSS för att styla dessa! Se om du kan lista ut hur du t.ex kan lägga en ram runt varje artikel, färga och ändra storlek på texterna, och skapa mer mellanrum mellan element.</li>
+
+      </ol>
+    </div>  
+
+    <br />
+    <div class="dropdown">
+    <label for="sizes" class="lable"
+      >Pick a size</label
+    >
+    <select
+      name="sizes"
+      id="sizes"
+      class="dropdownlist"
+    >
+      <option value="välj" selected disabled hidden>Sizes</option>
+      <option value="xsmall" disabled>XS</option>
+      <option value="small">S</option>
+      <option value="medium">M</option>
+      <option value="large" hidden>L</option>
+      <option value="xlarge">XL</option>
+    </select>
+    </div>
+    
+    <div class="contactform">
+      <form>
+        <label>First name:</label>
+        <input
+          type="text"
+          id="firstname"
+          name="firstname"
+        />
+        <label>Last name:</label>
+        <input
+          type="text"
+          id="lastname"
+          name="lastname"
+        />
+        <label>Phone number:</label>
+        <input placeholder="ex 0724486582"
+          type="tel"
+          id="tel"
+          name="tel"
+        />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <ol>
+      <li>French kiss</li>
+      <li>Thor: Ragnarök</li>
+      <li>Splash</li>
+      <li>Nyckeln till frihet</li>
+      <li>Fight Club</li>
+    </ol>
+    <div class="unordedlist">
+      <label>Favorit food</label>
+      <ul>
+        <li>Biryani</li>
+        <li>Ceviche</li>
+        <li>Kimchi</li>
+        <li>Paella</li>
+        <li>Sushi</li>
+      </ul>
+      </div>
+
+    <br />
+    <h1 class="exerciseheading">
+      Excercises in .net
+    </h1>
+    <main class="articles">
+      <article class="articlebox" id="articleaboutus">
+        <a href="#" target="_blank" class="blanklink">
+          <div class="articleimage">
+            <img
+              src="/images/ContactUs.png"
+              alt="contact form example"
+            />
+          </div>
+          <h2 class="articleheading">
+            About us website
+          </h2>
+          <p class="articletext">
+            Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Praesentium eum cum
+            aliquid cupiditate doloribus quas atque
+            maxime id nemo culpa quae temporibus
+            fuga officia consectetur, magni ea
+            voluptatibus. At accusantium
+            reprehenderit quia sapiente, officia
+            temporibus, nisi nobis alias unde
+            distinctio eius dignissimos obcaecati
+            beatae voluptate eligendi laudantium
+            error neque dolorem molestiae ab. Ab
+            eligendi illum in inventore, tempora
+            cupiditate tempore veritatis facere
+            ratione doloribus enim eaque tenetur
+            quaerat atque ipsum possimus esse!
+          </p>
+        </a>
+      </article>
+
+      <article class="articlebox" id="articlehittahem">
+        <a href="pictures.html" target="_blank" class="blanklink">
+          <div class="articleimage">
+            <img
+              src="/images/hittahem.jpg"
+              alt="House and a key"
+            />
+          </div>
+          <h2 class="articleheading">
+            HittaHem website
+          </h2>
+          <p class="articletext">
+            Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Praesentium eum cum
+            aliquid cupiditate doloribus quas atque
+            maxime id nemo culpa quae temporibus
+            fuga officia consectetur, magni ea
+            voluptatibus. At accusantium
+            reprehenderit quia sapiente, officia
+            temporibus, nisi nobis alias unde
+            distinctio eius dignissimos obcaecati
+            beatae voluptate eligendi laudantium
+            error neque dolorem molestiae ab. Ab
+            eligendi illum in inventore, tempora
+            cupiditate tempore veritatis facere
+            ratione doloribus enim eaque tenetur
+            quaerat atque ipsum possimus esse!
+          </p>
+        </a>
+      </article>
+
+      <article class="articlebox" id="articleelephantbooking">
+        <a href="pictures.html" target="_blank" class="blanklink">
+          <div class="articleimage">
+            <img
+              src="https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9zdGF0aWMvaW1hZ2VzL3dlYnNpdGUvMjAyMi0wNS9mbDI2NTE4ODM1NTQyLWltYWdlLWt5YmVsYWZvLmpwZw.jpg?s=RDhrwInOTC_wugQKRAY3HRi0ybmxpAdzpQSeOz9ZAwA"
+              alt="elephant"
+            />
+          </div>
+          <h2 class="articleheading">
+            Elephantbooking
+          </h2>
+          <p class="articletext">
+            Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Praesentium eum cum
+            aliquid cupiditate doloribus quas atque
+            maxime id nemo culpa quae temporibus
+            fuga officia consectetur, magni ea
+            voluptatibus. At accusantium
+            reprehenderit quia sapiente, officia
+            temporibus, nisi nobis alias unde
+            distinctio eius dignissimos obcaecati
+            beatae voluptate eligendi laudantium
+            error neque dolorem molestiae ab. Ab
+            eligendi illum in inventore, tempora
+            cupiditate tempore veritatis facere
+            ratione doloribus enim eaque tenetur
+            quaerat atque ipsum possimus esse!
+          </p>
+        </a>
+      </article>
+    </main>
+  </body>
+</html>
