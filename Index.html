@@ -1,60 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="CSS/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Portfolio</title>
-</head>
-<body>
-  <header class="header" id="home">
-    <div class="container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- <link rel="stylesheet" href="CSS/dropdown-menu.css"> -->
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li>ABOUT ME</li>
+        <li class="dropdown">
+          <a
+            href="javascript:void(0)"
+            class="dropbtn"
+            >EDUCATION</a
+          >
+          <div class="dropdown-content">
+            <a href="exercise2.html"
+              >Exercise 2</a
+            >
+            <a href="exercise3.html"
+              >Exercise 3</a
+            >
+            <a href="exercise4.html"
+              >Exercise 4</a
+            >
+            <a href="exercise5.html"
+              >Exercise 5</a
+            >
+            <a href="recipe.html">Recipe</a>
+            <a href="loggin.html"
+              >Login Exercise</a
+            >
+            <a href="mobilefirst.html"
+              >Login Mobile first</a
+            >
+          </div>
+        </li>
+        <li>KNOWLEDGE</li>
+        <li>HOME</li>
+      </ul>
+    </nav>
+    <section class="header" id="home">
       <div class="info">
         <h2>Hi, I´m</h2>
         <h1>Charlotta Lindberg</h1>
         <p>Frontend developer</p>
       </div>
-    </div>
-    <figure class="image">
-      <img src="images/profileimg.jpg" alt="Image of Charlotta Lindberg">
-      <!-- <figcaption>This is me</figcaption> -->
-    </figure>
-    <div class="buttons">
-      <button class="btn btn-primary">CONTACT ME</button>
-      <button class="btn btn-dark">DOWNLOAD CV</button>
-    </div>
-    <div class="socials">
-      <div class="social">
-        <span class="phone">
-          &#128222;
-        </span>
+
+      <div class="image">
+        <img
+          src="images/profileimg.jpg"
+          alt="Image of Charlotta Lindberg"
+        />
       </div>
-      <div class="social">
-        <span class="linkedin">
-          &#128279;
-        </span>
+
+      <div class="buttons">
+        <button class="btn btn-primary">
+          CONTACT ME
+        </button>
+        <button class="btn btn-dark">
+          DOWNLOAD CV
+        </button>
       </div>
-      <div class="social">
-        <span class="git">
-          &#128049;
-        </span>
+
+      <div class="socials">
+        <div class="social">
+          <span class="phone"> &#128222; </span>
+        </div>
+        <div class="social">
+          <span class="linkedin">
+            &#128279;
+          </span>
+        </div>
+        <div class="social">
+          <span class="git"> &#128049; </span>
+        </div>
+        <div class="social">
+          <span class="mail"> &#128231; </span>
+        </div>
       </div>
-      <div class="social">
-        <span class="mail">
-          &#128231;
-        </span>
-      </div>
-    </div>
-  </header>
-  
-  <nav class="navbar">
-    <ul>
-      <li>ABOUT ME</li>
-      <li>EDUCATION</li>
-      <li>KNOWLEDGE</li>
-      <li>HOME</li>
-    </ul>
-  </nav>
-</body>
+    </section>
+  </body>
 </html>

@@ -56,6 +56,7 @@
   .menu__container .menu a:hover {
     transform: scale(1.1, 1.1);
   }
+ 
 }
 @media only screen and (max-width: 310px) {
   .menu__container {
